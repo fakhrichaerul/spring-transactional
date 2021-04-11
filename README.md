@@ -1,8 +1,8 @@
 # Aplikasi Spring Transactional
 
-Cara menjalankan :
+Cara menjalankan aplikasi:
 
-1. Jalankan aplikasi
+1. Run aplikasi
 
     ```
    mvn spring-boot:run
