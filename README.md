@@ -8,7 +8,7 @@ Cara menjalankan aplikasi:
    mvn spring-boot:run
     ```
 
-2. Browse ke url 
+2. Database in-memory dapat dilihat di url :
     ```
     http://localhost:8080/h2-console
     ```
@@ -20,7 +20,7 @@ Cara menjalankan aplikasi:
     Password = password
     ```
 
-3. Documentasi Rest API dapat dilihat di url
+3. Dokumentasi Rest API dapat dilihat di url :
 
     ```
     http://localhost:8080/swagger-ui.html
