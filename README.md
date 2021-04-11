@@ -17,7 +17,7 @@ Cara menjalankan :
     Password = password
     ```
 
-3. Template url untuk Method Post
+3. Template URL untuk Method Post
 
     ```
     http://localhost:8080/employee
