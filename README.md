@@ -8,7 +8,10 @@ Cara menjalankan aplikasi:
    mvn spring-boot:run
     ```
 
-2. Browse ke url localhost:8080/h2-console
+2. Browse ke url 
+    ```
+    localhost:8080/h2-console
+    ```
    lalu login dengan database, username dan password
    yang sama dengan konfigurasi application.properties
     ```
