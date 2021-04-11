@@ -13,7 +13,7 @@ Cara menjalankan aplikasi:
     localhost:8080/h2-console
     ```
    lalu login dengan database, username dan password
-   yang sama dengan konfigurasi application.properties
+   yang sama dengan konfigurasi `application.properties`
     ```
     JDBC URL = jdbc:h2:mem:h2db
     User Name = h2
