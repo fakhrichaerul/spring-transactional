@@ -10,7 +10,7 @@ Cara menjalankan aplikasi:
 
 2. Browse ke url 
     ```
-    localhost:8080/h2-console
+    http://localhost:8080/h2-console
     ```
    lalu login dengan database, username dan password
    yang sama dengan konfigurasi `application.properties`
@@ -20,19 +20,10 @@ Cara menjalankan aplikasi:
     Password = password
     ```
 
-3. Template URL untuk Method Post
+3. Documentasi Rest API dapat dilihat di url
 
     ```
-    http://localhost:8080/employee
+    http://localhost:8080/swagger-ui.html
     ```
 
-   Template Request Body Json untuk Method Post
-
-    ```json
-    {
-    "empName":"Fakhri",
-    "email":"fakhrichaerul@gmail.com",
-    "departmentName":"IT"
-    }
-    ```
    
