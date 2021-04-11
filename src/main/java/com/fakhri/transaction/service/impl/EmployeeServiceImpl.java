@@ -30,11 +30,12 @@ public class EmployeeServiceImpl implements EmployeeService {
         Long departmentId = departmentRepository.save(department)
                 .getDepartmentId();
 
-        // Contoh Gagal
-        Employee employee = null;
+        // Contoh berhasil
+        Employee employee = new Employee();
 
-        // Contoh Berhasil
-//        Employee employee = new Employee();
+        // Contoh gagal untuk percobaan fitur rollback transactional
+//        Employee employee = null;
+
 
         employee.setEmpName(employeeRequestDto.getEmpName());
         employee.setEmail(employeeRequestDto.getEmail());
