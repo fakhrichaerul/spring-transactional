@@ -8,7 +8,7 @@ Cara menjalankan aplikasi:
    mvn spring-boot:run
     ```
 
-2. Database in-memory dapat dilihat di url :
+2. Database in-memory dapat diakses di url :
     ```
     http://localhost:8080/h2-console
     ```
